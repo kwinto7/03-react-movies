@@ -3,7 +3,7 @@ import type { Movie } from '../../types/movie'
 
 interface MovieGridProps {
   movies: Movie[]
-  onSelect: (movie: Movie) => void   // ← обов’язковий
+  onSelect: (movie: Movie) => void   
 }
 
 const IMG = (p: string | null) => (p ? `https://image.tmdb.org/t/p/w342${p}` : '')
